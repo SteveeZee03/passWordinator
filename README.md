@@ -1,12 +1,29 @@
-# Password Generator Starter Code
+ # passWordinator!
+![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-passWordinator!
+## <b>Description</b>
+passWordinator! is a password generator that allows you to generate a password with four different character types between 8-128 characters!
+## <b>Table of Contents</b>
 
-passWordinator! is password genarator that provides a code in a randomized sequence of, numbers, letters, and symbols for the user to copy.
+* [Usage](#usage)
 
-The user can choose a randomly generated password from choosing all character types or to just picking one!. 
-The way it works is that once you press generate password, a prompt on top of your browser will ask the length of your desired password thats between 8 and 128 characters.
-After input of the desired length, The user will be asked to answer a series of questions regarding the passwords use of characters. Once that's done, a password will be generated on your screen with the length and character types you chose.   
+* [License](#license)
 
-Live Server link: http://127.0.0.1:5500/
- Screenshot Link: passWordinator!\passWordinator!\assets\images
+* [Contributing](#contributing)
+
+* [Questions](#questions)
+
+
+## <b>Usage</b>
+Video Demonstration:
+assets/images/
+
+## <b>License</b>
+This project is licensed under the MIT license.
+
+## <b>Contributing</b>
+Steven NZ
+
+## <b>Questions</b>
+Any questions or concerns about this repo, feel free to contact me at enunez391@gmail.com.  You can also visit me at SteveeZee03  to view more of my work.
+
