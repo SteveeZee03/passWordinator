@@ -13,7 +13,7 @@ var generateBtn = document.querySelector("#generate");
 
 function makePassword() {
     var rightPrompt = getPrompts();
-    passwordTxt = document.querySelector("#password");
+    var passwordTxt = document.querySelector("#password");
 
     if (rightPrompt) {
         var password = generatePassword();
@@ -21,7 +21,7 @@ function makePassword() {
     } else {
         passwordTxt.value = " ";
     }
-};
+}
 
 generateBtn.addEventListener('click', makePassword);
 
@@ -38,13 +38,30 @@ function generatePassword() {
         console.log(password, "password");
     }
     return password;
-};
+}
 
 function getPrompts() {
     charLength = parseInt(prompt("Please enter a password thats between 8-128 characters :"));
 
     if (isNaN(charLength) || charLength <8 || charLength > 128) {
-        alert("password must contain between 8 128");
+        alert("password must contain between 8-128 characters.");
         return false;
     }
-}
+
+    if (confirm("Do you want to add special chracters to your password?")) {
+        choiceArr = choiceArr.concat(specialChar);
+    }
+
+    if (confirm("Do you want to add numbers to your password?")) {
+        choiceArr = choiceArr.concat(numbers);
+    }
+
+    if(confirm("Do you want to add lowercase letters to your password?")) {
+        choiceArr = choiceArr.concat(lowerCase);
+    }
+
+    if(confirm("Do you want to add uppercase letters to your password?")) {
+        choiceArr = choiceArr.concat(upperCase);
+    }
+    return true;
+};
