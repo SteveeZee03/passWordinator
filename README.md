@@ -15,8 +15,9 @@ passWordinator! is a password generator that allows you to generate a password w
 
 
 ## <b>Usage</b>
-Video Demonstration: <br>
-<a href="https://github.com/SteveeZee03/passWordinator/tree/main/assets/images">assets\images</a> 
+Video Demonstration: <a href="https://github.com/SteveeZee03/passWordinator/tree/main/assets/images">assets\images</a> 
+<br>
+Deployed Link: https://steveezee03.github.io/passWordinator/
 
 ## <b>License</b>
 This project is licensed under the MIT license.
